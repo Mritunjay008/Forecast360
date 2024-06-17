@@ -33,7 +33,7 @@ This web application fetches current weather data based on user-inputted city na
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Mritunjay008/weather-app.git
+https://github.com/Mritunjay008/weather-app.git
    ```
 
 2. Navigate into the project directory:
