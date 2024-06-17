@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1e1e1e;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 40%;
+    border-radius: 7px;
+}
+
+.fa-solid {
+    color: #fff;
+    margin: 7px;
+}
+
+.weather_header {
+    margin: 40px;
+    background-color: #1e1e1e;
+    width: 210px;
+    height: 28px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.city_name {
+    background-color: #1e1e1e;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.city_name::placeholder {
+    color: #fff;
+    font-size: 16px;
+}
+
+.city_name::after {
+    border: none;
+}
+
+/* * weather data */
+.weather_body {
+    margin: 70px 0px 50px 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather_city {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.weather_date_time {
+    font-size: 12px;
+}
+
+.weather_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_forecast {
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.weather_icon {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.weather_temperature {
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.weather_minmax {
+    font-size: 14px;
+    font-weight: 300;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* * Weather extra data */
+.weather_info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.weather_card {
+    display: flex;
+    width: 45%;
+    background-color: #ffffff;
+    border: 1px solid rgb(252, 248, 248);
+    box-shadow: 1px 1px 5px #1e1e1e;
+    margin: 10px;
+    border-radius: 4px;
+}
+.fa-droplet,
+.fa-wind,
+.fa-gauge-high,
+.fa-temperature-three-quarters {
+    color: black;
+    font-size: 25px;
+}
+.weather_card p {
+    font-size: 12px;
+}
+
+.weather_card div {
+    margin-right: 50px;
+}
