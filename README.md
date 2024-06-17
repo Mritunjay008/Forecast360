@@ -27,8 +27,6 @@ This web application fetches current weather data based on user-inputted city na
 
 ## Screenshots
 
-![Screenshot 1](screenshot1.png)
-
 ![Screenshot 2](screenshot2.png)
 
 ## Installation
